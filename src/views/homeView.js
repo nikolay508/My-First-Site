@@ -34,5 +34,5 @@ const cardTemp = (item) => html`
 
 export async function showHomeView(){
     const items = await dataService.getAllFurniture()
-    render(temp(items), root)
+    render(temp(items), root);
 }

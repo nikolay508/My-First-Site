@@ -42,4 +42,4 @@ export async function showDetailsView(ctx) {
     const isOwner = userUtil.hasOwner(item._ownerId);
 
     ctx.render(temp(item, isOwner));
-}
+} 

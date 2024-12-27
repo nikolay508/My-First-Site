@@ -55,6 +55,7 @@ function updateNav() {
     }
 }
 
+//logout here
 async function logout() {
     await userService.logout();
     updateNav();
